@@ -82,7 +82,7 @@ function PokemonDataView({pokemon}) {
       <div className="pokemon-info__img-wrapper">
         <img src={pokemon.image} alt={pokemon.name} />
       </div>
-      <section>
+      <section>``
         <h2>
           {pokemon.name}
           <sup>{pokemon.number}</sup>
